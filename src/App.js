@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import NavBar from "./components/Navbar";
 // import './App.css';
 import ImagesCard from "./components/Cards";
-import imagesCharacters from "./imagesList.json";
+import imagesList from "./imagesList.json";
 
 class App extends Component {
   state = {
     // Setting this.state.imagesList to the imagesList json array
-    imagesCharacters,
+    imagesList,
     score: 0,
     topScore: 0
   }
@@ -15,13 +15,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
-        <div className="container-fluid">
-          <ImagesCard
-          // key={imagesCharacters.id}
-          />
-        </div>
+      <NavBar />
+      <div className="container-fluid">
+      {this.state.imagesList.map(images => (
+        <ImagesCard
+         
+          id={images.id}
+          key={images.id}
+          name={images.name}
+          image={images.image}
+        />
+        ))}
       </div>
+    </div>
     );
   }
 }
