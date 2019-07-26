@@ -1,3 +1,41 @@
+
+## Clicky Game
+
+#Description
+
+Click an image to begin!
+Click on an image to earn points, but don't click on any more than once!
+
+######
+
+| Technology Used | Reference |
+| --------------- | --------- |
+| REACT |  |
+| Bootstrap |  https://getbootstrap.com/ |
+| CSS | https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS |
+| JavaScript | https://www.javascript.com/ |
+| JSX | https://jquery.com/ |
+| NodeJs | https://nodejs.org/en/ |
+| npm | https://www.npmjs.com/ |
+| ES6 | http://expressjs.com/ |
+
+
+######
+
+| Versioning | Reference |
+| --------------- | --------- |
+| Github | https://github.com/ |
+
+######
+
+| Author | Github Repository |
+| --------------- | --------- |
+| Minal Kharche | https://github.com/minalk24 |
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +104,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
