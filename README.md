@@ -1,10 +1,16 @@
 
 ## Clicky Game
 
-#Description
+# Description
 
 Click an image to begin!
 Click on an image to earn points, but don't click on any more than once!
+
+######
+
+| Versioning | Reference |
+| --------------- | --------- |
+| Github | https://github.com/ |
 
 ######
 
@@ -18,13 +24,6 @@ Click on an image to earn points, but don't click on any more than once!
 | NodeJs | https://nodejs.org/en/ |
 | npm | https://www.npmjs.com/ |
 | ES6 | http://expressjs.com/ |
-
-
-######
-
-| Versioning | Reference |
-| --------------- | --------- |
-| Github | https://github.com/ |
 
 ######
 
