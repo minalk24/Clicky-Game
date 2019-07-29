@@ -3,8 +3,12 @@ import './style.css';
 
 const Card = (props) => {
     return (
-        <img className="m-3 hoverImage column" type="button" 
-        alt={props.name} src={props.image} onClick={() => props.id} />
+        <img className= {`m-3 hoverbg column  ${props.animation? "animated wobble": ""}`} 
+        type="button" 
+        alt={props.name} 
+        src={props.image}  
+        onClick={() => props.clickPicture(props.id)} 
+        />
     );
 }
 
